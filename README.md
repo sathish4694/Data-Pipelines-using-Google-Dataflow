@@ -16,7 +16,7 @@ Cloud Storage API
 # The Google Cloud SDK installed on your local system
 Python and Apache Beam library installed locally or accessible through Cloud Shell
 
-Setup Steps
+# Setup Steps
 
 Step 1: Create a Google Cloud Storage (GCS) Bucket
 
@@ -40,7 +40,7 @@ Extract and Load Data:
 
 Reads data from JSON and CSV files in the GCS bucket.
 
-Transformations:
+# Transformations:
 
 Uppercase Transformation:
 
@@ -48,7 +48,7 @@ Convert company_name and country to uppercase.
 
 Format industry to have capitalized words (e.g., "Management Consulting").
 
-Data Cleaning:
+# Data Cleaning:
 
 Drop description and locationUrl fields.
 
@@ -74,7 +74,7 @@ Save the transformed data to BigQuery.
 
 Write a CSV file with selected fields back to GCS.
 
-Project Structure
+# Project Structure
 
 Running the Pipeline
 
@@ -96,7 +96,7 @@ BigQuery Table:
 
 The transformed data will be loaded into a BigQuery table with a predefined schema.
 
-Outputs
+# Outputs
 
 BigQuery Table:
 The transformed data is loaded into a BigQuery table named suppliers_data.
@@ -105,6 +105,6 @@ The transformed data is loaded into a BigQuery table named suppliers_data.
 CSV File in GCS:
 The CSV file containing company_name, ceo, country, state, city, and founded is saved in the GCS bucket.
 
-Additional Notes
+# Additional Notes
 Ensure you have permissions to create and write to BigQuery tables and GCS buckets.
 If running locally, configure your environment to authenticate with GCP using:
