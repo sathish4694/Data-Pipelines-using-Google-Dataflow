@@ -3,10 +3,15 @@ This project demonstrates the creation of a data pipeline using Google Cloud Dat
 
 # Prerequisites
 Before running the project, make sure you have the following set up:
+
 A Google Cloud Platform (GCP) account
+
 A GCP project with the following APIs enabled:
+
 Dataflow API
+
 BigQuery API
+
 Cloud Storage API
 # The Google Cloud SDK installed on your local system
 Python and Apache Beam library installed locally or accessible through Cloud Shell
